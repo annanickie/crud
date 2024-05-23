@@ -1,0 +1,86 @@
+/* App.css */
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.title {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+table th {
+  background-color: #f2f2f2;
+}
+
+table td {
+  text-align: center;
+}
+
+.add-button {
+  padding: 8px 15px;
+  margin-left: 5px;
+  background-color: #28a745; /* Green */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background-color: #218838; /* Darker Green */
+}
+
+.edit-button {
+  padding: 8px 15px;
+  margin-left: 5px;
+  background-color: #ffc107; /* Yellow */
+  color: #212529;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.edit-button:hover {
+  background-color: #e0a800; /* Darker Yellow */
+}
+
+.save-button {
+  padding: 8px 15px;
+  margin-left: 5px;
+  background-color: #007bff; /* Blue */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.save-button:hover {
+  background-color: #0056b3; /* Darker Blue */
+}
+
+.delete-button {
+  padding: 8px 15px;
+  margin-left: 5px;
+  background-color: #dc3545; /* Red */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-button:hover {
+  background-color: #c82333; /* Darker Red */
+}
